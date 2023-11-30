@@ -37,6 +37,7 @@ El aprendizaje no supervisado se puede dividir en dos categorías: agrupamiento 
 ### Modelos de Aprendizaje No Supervisado
 
 * **Algoritmos de Agrupamiento**
+  
   * [K-Means](https://es.wikipedia.org/wiki/K-means)
   * [DBSCAN](https://es.wikipedia.org/wiki/DBSCAN)
 
