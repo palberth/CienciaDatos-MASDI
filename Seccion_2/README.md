@@ -47,4 +47,4 @@ El aprendizaje no supervisado se puede dividir en dos categorías: agrupamiento 
 
 ## Referencias
 
-[1]: J. Brownlee, "A Gentle Introduction to Machine Learning," Machine Learning Mastery, 2013. [Online]. Available: https://machinelearningmastery.com/a-gentle-introduction-to-machine-learning/
+[1]: Géron, A. (2019). Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems. O'Reilly Media.
