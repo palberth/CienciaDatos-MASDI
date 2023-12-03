@@ -43,8 +43,9 @@ El aprendizaje no supervisado se puede dividir en dos categorías: agrupamiento 
 
 ## Lista de Ejemplos
 
-- [Ejemplo 1: Aprendizaje Supervisado](Ejemplo-01/README.md)
-- [Ejemplo 2: Aprendizaje No Supervisado](Ejemplo-02/README.md)
+- [Ejemplo 1: Aprendizaje Supervisado - Regresión](Ejemplo-01/unsurance_cost_regression.ipynb)
+- [Ejemplo 2: Aprendizaje Supervisado - Clasificación](Ejemplo-01/WineQT_classification.ipynb)
+- [Ejemplo 3: Aprendizaje No Supervisado](Ejemplo-02/mall_customers_clustering.ipynb)
 
 ## Referencias
 
