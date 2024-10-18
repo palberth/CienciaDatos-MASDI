@@ -40,8 +40,9 @@ Adicionalmente, si se cuenta con un computador con suficiente capacidad de proce
 - [Jupyter Notebooks](https://jupyter.org/)
 - [Kaggle Kernels](https://www.kaggle.com/kernels)
 - [Tutorial : Introducción a Google Colab](https://www.youtube.com/watch?v=9g61bnipcSs)
-- [Curso : Pandas](https://youtu.be/2uvysYbKdjM?si=HP84RkaGdmZVPSeA)
-- [Comandos Esenciales de Pandas](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf) :panda_face:
+- :panda_face: [Curso : Pandas](https://youtu.be/2uvysYbKdjM?si=HP84RkaGdmZVPSeA) 
+- :panda_face: [Comandos Esenciales de Pandas](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf)
+- :snake: [Curso : Python para Análisis de Datos](https://www.youtube.com/watch?v=wUSDVGivd-8)
 
 ## Lista de Ejemplos
 
