@@ -23,11 +23,7 @@ $MAE = \frac{1}{n} \sum_{i=1}^{n} |y_i - \hat{y}_i|$
 ### Coeficiente de Determinación (R²)
 El R² indica qué proporción de la variabilidad en los datos se explica mediante el modelo. Un valor de 1 indica una predicción perfecta, mientras que valores cercanos a 0 sugieren que el modelo no explica la variabilidad.
 
-$R^2 = 1 - \frac{MSE}{Var(y)}$
-
-$MSE = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2$
-
-$Var(y) = \frac{1}{n} \sum_{i=1}^{n} (y_i - \bar{y})^2$
+$R^2 = 1 - \frac{\sum_{i=1}^{n} (y_i - \hat{y}_i)^2}{\sum_{i=1}^{n} (y_i - \bar{y})^2}$
 
 ### Coeficiente de Correlación de Pearson (r)
 El coeficiente r mide la correlación lineal entre las predicciones y los valores reales, con valores que varían entre -1 y 1. Un valor de 1 indica una correlación positiva perfecta.
