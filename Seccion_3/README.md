@@ -23,12 +23,28 @@ $MAE = \frac{1}{n} \sum_{i=1}^{n} |y_i - \hat{y}_i|$
 ### Coeficiente de Determinación (R²)
 El R² indica qué proporción de la variabilidad en los datos se explica mediante el modelo. Un valor de 1 indica una predicción perfecta, mientras que valores cercanos a 0 sugieren que el modelo no explica la variabilidad.
 
-$R^2 = 1 - \frac{\sum_{i=1}^{n} (y_i - \hat{y}_i)^2}{\sum_{i=1}^{n} (y_i - \bar{y})^2}$
+El coeficiente de determinación, $R^2$, se calcula como:
+
+$R^2 = 1 - \frac{SS_{res}}{SS_{tot}}$
+
+Donde:
+- $SS_{res}$ es la **suma de los cuadrados de los residuos**:
+  $SS_{res} = \sum_{i=1}^{n} (y_i - \hat{y}_i)^2$
+- $SS_{tot}$ es la **suma total de los cuadrados**:
+  $SS_{tot} = \sum_{i=1}^{n} (y_i - \bar{y})^2$
 
 ### Coeficiente de Correlación de Pearson (r)
 El coeficiente r mide la correlación lineal entre las predicciones y los valores reales, con valores que varían entre -1 y 1. Un valor de 1 indica una correlación positiva perfecta.
 
-$r = \frac{\sum_{i=1}^{n} (y_i - \bar{y})(\hat{y}_i - \bar{\hat{y}})}{\sqrt{\sum_{i=1}^{n} (y_i - \bar{y})^2 \sum_{i=1}^{n} (\hat{y}_i - \bar{\hat{y}})^2}}$
+El coeficiente de correlación de Pearson, $r$, se calcula como:
+
+$r = \frac{\sum_{i=1}^{n} (y_i - \bar{y})(\hat{y}_i - \bar{\hat{y}})}{\sqrt{\sum_{i=1}^{n} (y_i - \bar{y})^2} \sqrt{\sum_{i=1}^{n} (\hat{y}_i - \bar{\hat{y}})^2}}$
+
+Donde:
+- $y_i$ representa los valores reales.
+- $\hat{y}_i$ representa los valores predichos.
+- $\bar{y}$ es la media de los valores reales.
+- $\bar{\hat{y}}$ es la media de los valores predichos.
 
 ### Error Porcentual Absoluto Medio (MAPE)
 El MAPE expresa el error promedio como un porcentaje de los valores reales, permitiendo evaluar el rendimiento del modelo en diferentes escalas de datos.
