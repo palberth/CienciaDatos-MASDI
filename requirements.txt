@@ -4,4 +4,6 @@ numpy
 matplotlib
 scikit-learn
 plotly
+xgboost
+nbformat
 
