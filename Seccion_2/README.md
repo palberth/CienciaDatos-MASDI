@@ -1,10 +1,9 @@
 # Aprendizaje Supervisado y No Supervisado
 
-
 El aprendizaje automático es una rama de la inteligencia artificial que se centra en el estudio y construcción de sistemas capaces de aprender de los datos, identificar patrones y realizar decisiones con mínima intervención humana [1]. El aprendizaje automático se divide en dos grandes categorías: aprendizaje supervisado y aprendizaje no supervisado. 
 
 
-En esta sección, se explorarán conceptos básicos de ambos tipos de aprendizaje automático y se presentarán algunos ejemplos de algoritmos de aprendizaje automático.
+En esta sección, se presentan ejemplos de aprendizaje supervisado y no supervisado utilizando la librería `scikit-learn` en Python. Dando una introducción al uso de algoritmos de clasificación, regresión y agrupamiento.
 
 ## Aprendizaje Supervisado
 
@@ -20,12 +19,14 @@ El aprendizaje supervisado se puede dividir en dos categorías: clasificación y
   * [Máquinas de Soporte Vectorial](https://es.wikipedia.org/wiki/M%C3%A1quinas_de_vectores_de_soporte)
   * [K-Vecinos Más Cercanos](https://es.wikipedia.org/wiki/K_vecinos_m%C3%A1s_pr%C3%B3ximos)
   * [Naive Bayes](https://es.wikipedia.org/wiki/Clasificador_bayesiano_ingenuo)
+  * [XGBoost](https://es.wikipedia.org/wiki/XGBoost)
   
 * **Algoritmos de Regresión**
   * [Regresión Lineal](https://es.wikipedia.org/wiki/Regresi%C3%B3n_lineal)
   * [Árboles de Decisión](https://es.wikipedia.org/wiki/%C3%81rbol_de_decisi%C3%B3n)
   * [Máquinas de Soporte Vectorial](https://es.wikipedia.org/wiki/M%C3%A1quinas_de_vectores_de_soporte)
   * [K-Vecinos Más Cercanos](https://es.wikipedia.org/wiki/K_vecinos_m%C3%A1s_pr%C3%B3ximos)
+  * [XGBoost](https://es.wikipedia.org/wiki/XGBoost)
 
 
 ## Aprendizaje No Supervisado
@@ -43,9 +44,11 @@ El aprendizaje no supervisado se puede dividir en dos categorías: agrupamiento 
 
 ## Lista de Ejemplos
 
-- [Ejemplo 1: Aprendizaje Supervisado - Regresión](Ejemplo-01/unsurance_cost_regression.ipynb)
-- [Ejemplo 2: Aprendizaje Supervisado - Clasificación](Ejemplo-01/WineQT_classification.ipynb)
-- [Ejemplo 3: Aprendizaje No Supervisado](Ejemplo-02/mall_customers_clustering.ipynb)
+Los ejemplos presentados en esta sección son los siguientes:
+
+- [Ejemplo 1: Aprendizaje Supervisado - Regresión](Ejemplo_1_unsurance_cost_regression.ipynb)
+- [Ejemplo 2: Aprendizaje Supervisado - Clasificación](Ejemplo_2_WineQT_classification.ipynb)
+- [Ejemplo 3: Aprendizaje No Supervisado](Ejemplo_3_mall_customers_clustering.ipynb)
 
 ## Referencias
 
