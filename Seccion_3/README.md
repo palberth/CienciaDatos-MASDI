@@ -8,23 +8,17 @@ En el contexto del aprendizaje automático y la minería de datos, las métricas
 ### Error Cuadrático Medio (MSE)
 El MSE mide la media de los cuadrados de los errores entre los valores predichos y los valores reales. Es útil para penalizar errores grandes y proporciona una medida global del desempeño del modelo.
 
-$
-MSE = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2
-$
+$MSE = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2$
 
 ### Raíz del Error Cuadrático Medio (RMSE)
 El RMSE es la raíz cuadrada del MSE y tiene la misma unidad que la variable de interés. Es una métrica que facilita la interpretación de los errores, siendo más sensible a grandes errores que el MAE.
 
-$
-RMSE = \sqrt{\frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2}
-$
+$RMSE = \sqrt{\frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2}$
 
 ### Error Absoluto Medio (MAE)
 El MAE calcula la media de los valores absolutos de los errores entre las predicciones y los valores reales. Es menos sensible a valores atípicos en comparación con el MSE.
 
-$
-MAE = \frac{1}{n} \sum_{i=1}^{n} |y_i - \hat{y}_i|
-$
+$MAE = \frac{1}{n} \sum_{i=1}^{n} |y_i - \hat{y}_i|$
 
 ### Coeficiente de Determinación (R²)
 El R² indica qué proporción de la variabilidad en los datos se explica mediante el modelo. Un valor de 1 indica una predicción perfecta, mientras que valores cercanos a 0 sugieren que el modelo no explica la variabilidad.
@@ -51,11 +45,14 @@ Una matriz que muestra el número de verdaderos positivos, verdaderos negativos,
     <figcaption>Figura 1. Matriz de Confusión - Ejemplo 1</figcaption>
 </figure>
 
+<br>
+
 <figure align="center">
     <img src="https://github.com/DiegoPaezA/CienciaDatos-MASDI/blob/main/Seccion_3/imagenes/matriz_confusion_2.jpg" width="80%">
-    <figcaption>Figura 1. Matriz de Confusión - Ejemplo 2</figcaption>
+    <figcaption>Figura 2. Matriz de Confusión - Ejemplo 2</figcaption>
 </figure>
 
+<br>
 - Verdaderos Positivos (TP): Instancias positivas correctamente clasificadas.
 - Verdaderos Negativos (TN): Instancias negativas correctamente clasificadas.
 - Falsos Positivos (FP): Instancias negativas incorrectamente clasificadas como positivas.
