@@ -40,19 +40,26 @@ $MAPE = \frac{1}{n} \sum_{i=1}^{n} \left| \frac{y_i - \hat{y}_i}{y_i} \right| \t
 ### Matriz de Confusión
 Una matriz que muestra el número de verdaderos positivos, verdaderos negativos, falsos positivos y falsos negativos, permitiendo una evaluación detallada del rendimiento del modelo.
 
+<style>
+    figure {
+        margin-bottom: 20px;
+    }
+</style>
+
 <figure align="center">
-    <img src="https://github.com/DiegoPaezA/CienciaDatos-MASDI/blob/main/Seccion_3/imagenes/matriz_confusion_1.jpg" width="80%">
+    <img src="https://github.com/DiegoPaezA/CienciaDatos-MASDI/blob/main/Seccion_3/imagenes/matriz_confusion_1.jpg" width="60%">
     <figcaption>Figura 1. Matriz de Confusión - Ejemplo 1</figcaption>
 </figure>
 
 <br>
 
 <figure align="center">
-    <img src="https://github.com/DiegoPaezA/CienciaDatos-MASDI/blob/main/Seccion_3/imagenes/matriz_confusion_2.jpg" width="80%">
+    <img src="https://github.com/DiegoPaezA/CienciaDatos-MASDI/blob/main/Seccion_3/imagenes/matriz_confusion_2.jpg" width="60%">
     <figcaption>Figura 2. Matriz de Confusión - Ejemplo 2</figcaption>
 </figure>
 
 <br>
+
 - Verdaderos Positivos (TP): Instancias positivas correctamente clasificadas.
 - Verdaderos Negativos (TN): Instancias negativas correctamente clasificadas.
 - Falsos Positivos (FP): Instancias negativas incorrectamente clasificadas como positivas.
