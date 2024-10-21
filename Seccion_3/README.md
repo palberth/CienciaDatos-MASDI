@@ -3,6 +3,8 @@
 ## Introducción
 En el contexto del aprendizaje automático y la minería de datos, las métricas de desempeño son esenciales para evaluar la calidad y eficacia de los modelos. Estas métricas permiten medir la precisión, la eficiencia y la capacidad de generalización de los algoritmos, proporcionando información valiosa para la toma de decisiones y la optimización de modelos.
 
+En esta sección se utilizarán datasets sintéticos creados para ejemplificar el uso de diferentes métricas de desempeño en modelos de regresión, clasificación y clustering. Se presentarán las métricas más comunes y se explicará su interpretación y aplicación en diferentes contextos.
+
 ## Métricas para Modelos de Regresión
 
 ### Error Cuadrático Medio (MSE)
